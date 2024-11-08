@@ -1,0 +1,45 @@
+{
+    "name": "stratum-pool",
+    "version": "0.2.7",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt",
+        "yespower",
+        "lyra2re2"
+    ],
+    "homepage": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool",
+    "bugs": {
+        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "node lib/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ROZ-MOFUMOFU-ME/node-stratum-pool.git"
+    },
+    "dependencies": {
+        "@exodus/bitcoinjs-lib-zcash": "^0.0.13",
+        "async": "^3.2.6",
+        "bitcoinjs-lib": "^7.0.0-rc.0",
+        "multi-hashing": "https://github.com/MTCHANNELL/03-multihashing"
+    },
+    "engines": {
+        "node": ">=16",
+        "npm": ">=7"
+    }
+}
